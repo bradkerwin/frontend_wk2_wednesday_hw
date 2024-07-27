@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="Building_Responsive_Layouts_with_CSS_Grid.css">
+</head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h4>Navigation Menu</h4>
+                <a href=Building_Responsive_Layouts_with_CSS_Grid.html>Home</a>
+
+                <a href=Book_us.html>Book Us</a>
+
+                <a href=About.html>About</a>
+            </header>
+        </div>
+
+        <h2>Book Us</h2>
+
+        <div class="name mt-3">
+            <h4>Please fill in the information as directed</h4>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required> <br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required> <br><br>
+        </div>
+
+        <div class="phone_number mt-3">
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> <br>
+            <small>Format: 000-000-0000</small> <br><br>
+        </div>
+
+        <div>
+            <label for="email">Email address:</label>
+            <input type="email" id="email" name="email" required> <br>
+            <small>Format: name@email.com</small> <br><br>
+        </div>
+
+        <div>
+            <label for="address">Address of Event</label>
+            <input type="text" id="address" name="address" required> <br>
+            <small>Format: (Number) Street Name Apt/Unit (if applicable) 
+                City, State, Zip Code
+            </small> <br><br>
+        </div>
+
+        <div>
+            <label for="text">Enter Order Details Here:</label>
+            <input type="text" id="text" name="text" required> <br><br>
+        </div>
+
+        <footer>
+            <a href=Contact_Us.html>Contact Us</a>
+
+            <a href=Events.html>Events</a>
+
+            <a href=Blog.html>Blog</a>
+        </footer>
+    </body>
+</html>
