@@ -15,26 +15,23 @@ body {
 }
 
 .container {
-    display: grid;
+    display: flex;
     margin: 0 auto;
-    grid-template-columns: 1fr;
-    grid-template-rows: 50px auto auto auto;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    gap: 10px;
 }
 
 header {
     background-color: lightblue;
     padding-top: 10px;
     padding-bottom: 10px;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
 }
 
 footer {
     padding-top: 10px;
     padding-bottom: 10px;
-    grid-column: 1 / 2;
-    grid-row: 4 / 5;
     background-color: lightblue;
     text-align: center;
 }
